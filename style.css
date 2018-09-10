@@ -1,0 +1,189 @@
+/*
+Tulis di sini semua style yang Anda buat.
+Tidak diperbolehkan membuat file .CSS lainnya.
+*/
+
+body{
+	background-image: url("images/background.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+@media screen and (max-width:800px) {
+  #img-index, #menu-list-wrapper, .menu-button, #menu-image{
+    width:100%;
+		text-align:center;
+  }
+	#social-media-wrapper{
+		margin-top:0px;
+	}
+
+	.skills{
+		width:100px;
+	}
+}
+
+#index-middle{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#img-index{
+	clear:both;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#text-index-title{
+	text-align:center;
+	font-size:70px;
+	color:white;
+	font-family:Impact, Charcoal, sans-serif;
+}
+
+.header{
+	text-align:right;
+}
+
+#menu-image{
+	float:left;
+}
+
+#menu-list-wrapper{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	overflow: hidden;
+	float:right
+}
+
+.middle{
+	clear:both;
+}
+.menu-button{
+	float:left;
+}
+
+.menu-button a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-button:hover{
+	border:1px solid white;
+}
+
+#image-about{
+ clear:both;
+}
+
+.skills{
+	display: inline-block;
+	border:2px solid black;
+	height:300px;
+	width:300px;
+	text-align:center;
+	margin-bottom:20px;
+	background-color: white;
+}
+
+.portfolio-image{
+	padding-top:2px;
+}
+
+.skills-list{
+	margin:0 auto;
+	text-align:center;
+}
+
+.footer{
+	text-align:center;
+	background-color:grey;
+	padding-top:1px;
+	padding-bottom:1px;
+		left: 0;
+	   bottom: 0;
+}
+
+.middle-title{
+	text-align:center;
+	color:white;
+}
+
+.list{
+	text-align:left;
+}
+
+
+.footer-wrapper{
+	position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+height:10%;
+background-color:grey;
+text-align: center;
+}
+
+#wrapper{
+	margin:0 auto;
+}
+
+#portfolio-text{
+	color:white;
+	font-size:30px;
+}
+
+#img-about{
+	float:left;
+	margin-left:50px;
+}
+
+.contact-item{
+	display:inline-block;
+}
+
+#social-media-wrapper{
+	margin-top:150px;
+	text-align:center;
+	margin-bottom:200px;
+}
+
+#instagram, #facebook, #email{
+	padding:10px;
+}
+
+.middle-about{
+text-align:center;
+}
+
+#text-about{
+	font-size: 20px;
+	color: white;
+	font-family:Arial, Charcoal, sans-serif;
+}
+
+.index-text{
+	text-align:center;
+		font-family:Impact, Charcoal, sans-serif;
+}
+
+.achievement{
+	text-align:center;
+	display:-inline-block;
+}
+
+.contact-desc{
+	font-size:30px;
+	font-family:Arial, Charcoal, sans-serif;
+	color:white;
+}
+
+#contact-title{
+	text-align:center;
+	color:white;
+}
